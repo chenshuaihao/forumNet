@@ -42,13 +42,13 @@ int main()
 	netServer.InitServer();
 	std::thread th1(&NetServer::NetServerCallback, &netServer);
 	std::thread th2(&NetServer::NetServerCallback, &netServer);
-	//std::thread th3(&NetServer::NetServerCallback, &netServer);
+	std::thread th3(&NetServer::NetServerCallback, &netServer);
 	//std::thread th5(&NetServer::NetServerCallback, &netServer);
 	std::thread th4(&HttpServer::HttpServerCallback,&httpServer1);
 	//std::thread th5(&HttpServer::HttpServerCallback, &httpServer2);
 	th1.join();
 	th2.join();
-	//th3.join();
+	th3.join();
 	th4.join();
 	//th5.join();
 	//httpServer1.StartHttpServer();
