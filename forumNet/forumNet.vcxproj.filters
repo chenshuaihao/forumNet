@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NetServer.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MsgMapManager.cpp" />
+    <ClCompile Include="MsgMap.cpp" />
+    <ClCompile Include="HttpServer.cpp" />
+    <ClCompile Include="cJSON.c" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskDispatch.cpp" />
+    <ClCompile Include="AuthenticationServer.cpp" />
+    <ClCompile Include="TaskExcutor.cpp" />
+    <ClCompile Include="TaskManager.cpp" />
+    <ClCompile Include="MsgQueue.cpp" />
+    <ClCompile Include="MsgQueueManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e04e442f-c71d-41b6-9705-255a57711214}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgMapManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskDispatch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthenticationServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskExcutor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CommentStruc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UrlCodeSolution.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgQueue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgQueueManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
